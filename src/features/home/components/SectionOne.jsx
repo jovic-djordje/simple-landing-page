@@ -15,7 +15,7 @@ const SectionOne = () => {
         <div className="section-one-text-holder">
           <h1 className="section-one-title">
             We
-            <span className="highlight"> are learning</span>
+            <span className="highlight"> are learning </span>
             react
           </h1>
           <p className="section-one-text">
