@@ -3,6 +3,9 @@ import sectionTwoImage from "./section-two-image.png";
 import sectionThreeFirstImage from "./section-three-image (2).jpg";
 import sectionThreeSecondImage from "./section-three-image.jpg";
 import sectionThreeThirdImage from "./section-three-image (3).jpg";
+import sectionFourFirstImage from "./section-four-card-img.jpg";
+import sectionFourSecondImage from "./section-four-card-img (3).jpg";
+import sectionFourThirdImage from "./section-four-card-img (2).jpg";
 
 const SectionOneImage = ({ className }) => {
   return (
@@ -54,10 +57,43 @@ const SectionThreeThirdImage = ({ className }) => {
   );
 };
 
+const SectionFourFirstImage = ({ className }) => {
+  return (
+    <img
+      src={sectionFourFirstImage}
+      alt="section four illustartion"
+      className={className}
+    />
+  );
+};
+
+const SectionFourSecondImage = ({ className }) => {
+  return (
+    <img
+      src={sectionFourSecondImage}
+      alt="section four illustration"
+      className={className}
+    />
+  );
+};
+
+const SectionFourThirdImage = ({ className }) => {
+  return (
+    <img
+      src={sectionFourThirdImage}
+      alt="section four illustration"
+      className={className}
+    />
+  );
+};
+
 export {
   SectionOneImage,
   SectionTwoImage,
   SectionThreeFirstImage,
   SectionThreeSecondImage,
   SectionThreeThirdImage,
+  SectionFourFirstImage,
+  SectionFourSecondImage,
+  SectionFourThirdImage,
 };
