@@ -2,7 +2,7 @@ import {
   SectionThreeFirstImage,
   SectionThreeSecondImage,
   SectionThreeThirdImage,
-} from "../../assets/images";
+} from "../../../assets/images";
 
 const SectionThree = () => {
   const cards = [

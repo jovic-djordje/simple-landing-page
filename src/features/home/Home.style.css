@@ -238,6 +238,96 @@
   border-radius: 10px;
 }
 
+/* SECTION FOUR */
+.section-four {
+  background-color: #3cb35a;
+  padding: 70px 0px;
+}
+
+.section-four-holder {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.section-four-title {
+  font-size: 58px;
+}
+
+.marker {
+  background-image: url("src/assets/svg-hub-105 (2).svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section-four-title span {
+  text-transform: capitalize;
+}
+
+.section-four-card-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-four-card {
+  background-color: #f0d3f7;
+  border-radius: 20px;
+  max-width: 380px;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.section-four-card-width-holder {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-four-card-img {
+  max-width: 90px;
+  width: 100%;
+  align-self: flex-start;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.section-four-card-text-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.section-four-card-text {
+  font-family: "Poppins";
+  line-height: 1.7;
+}
+
+.info {
+  padding-bottom: 10px;
+  font-family: "Poppins";
+}
+
+.name {
+  font-weight: 600;
+}
+
+/* MEDIA QUERIES */
 @media screen and (max-width: 1200px) {
   .section-one {
     width: 95%;
@@ -250,6 +340,11 @@
   }
 
   .section-three-holder {
+    width: 95%;
+    margin: 0px auto;
+  }
+
+  .section-four-holder {
     width: 95%;
     margin: 0px auto;
   }
@@ -281,6 +376,14 @@
 
   .section-one-btn {
     font-size: 14px;
+  }
+
+  .section-four-card-text {
+    font-size: 15px;
+  }
+
+  .info {
+    font-size: 15px;
   }
 }
 
@@ -314,9 +417,36 @@
     font-size: 48px;
   }
 
+  .section-four-title {
+    font-size: 48px;
+  }
+
   .section-three-text {
     font-size: 15px;
     max-width: 450px;
+  }
+
+  .section-four-card-holder {
+    flex-direction: column;
+  }
+
+  .section-four-card {
+    max-width: 1000px;
+  }
+
+  .section-four-card-width-holder {
+    flex-direction: row;
+    gap: 20px;
+    width: 95%;
+  }
+
+  .section-four-card-img {
+    margin-bottom: 0;
+    height: 100%;
+  }
+
+  .info {
+    padding-bottom: 0;
   }
 }
 
@@ -381,6 +511,14 @@
     max-width: 300px;
     width: 100%;
   }
+
+  .section-four-card-text {
+    font-size: 14px;
+  }
+
+  .info {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -418,6 +556,10 @@
   .section-three-title {
     font-size: 58px;
     align-self: flex-start;
+  }
+
+  .section-four-title {
+    font-size: 58px;
   }
 
   .section-one-text {
@@ -460,5 +602,30 @@
 
   .section-three-card-img {
     max-width: 600px;
+  }
+
+  .section-one-title {
+    font-size: 50px;
+  }
+
+  .section-two-title {
+    font-size: 50px;
+  }
+
+  .section-three-title {
+    font-size: 50px;
+  }
+
+  .section-four-title {
+    font-size: 50px;
+  }
+
+  .section-four-card-width-holder {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .section-four-card-img {
+    height: 90px;
   }
 }

@@ -1,7 +1,8 @@
 import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo";
 import "./Home.style.css";
-import SectionThree from "./SectionThree";
+import SectionThree from "./components/SectionThree";
+import SectionFour from "./components/SectionFour";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
     </>
   );
 };
