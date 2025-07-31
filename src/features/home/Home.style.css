@@ -327,6 +327,87 @@
   font-weight: 600;
 }
 
+/* SECTION FIVE */
+
+.section-five {
+  padding: 70px 0px;
+}
+
+.section-five-holder {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.section-five-title {
+  font-size: 58px;
+  align-self: flex-start;
+  background-image: url("src/assets/svg-hub-105.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-five-card-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.section-five-title span {
+  text-transform: capitalize;
+}
+
+.section-five-card {
+  border: 2px solid #000;
+  max-width: 380px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.section-five-card-width-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0px auto;
+  min-height: 400px;
+  padding: 20px 0px;
+}
+
+.section-five-card-title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.section-five-card-text {
+  font-family: "Poppins";
+  color: #00000099;
+}
+
+.section-five-card-btn {
+  background-color: #3cb35a;
+  padding: 12px 0px;
+  max-width: 150px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  align-self: flex-start;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1200px) {
   .section-one {
@@ -347,6 +428,15 @@
   .section-four-holder {
     width: 95%;
     margin: 0px auto;
+  }
+
+  .section-five-holder {
+    width: 95%;
+    margin: 0px auto;
+  }
+
+  .section-five-card-title {
+    font-size: 22px;
   }
 
   .section-one-img {
@@ -421,6 +511,10 @@
     font-size: 48px;
   }
 
+  .section-five-title {
+    font-size: 48px;
+  }
+
   .section-three-text {
     font-size: 15px;
     max-width: 450px;
@@ -447,6 +541,18 @@
 
   .info {
     padding-bottom: 0;
+  }
+
+  .section-five-card-title {
+    font-size: 20px;
+  }
+
+  .section-five-card-text {
+    font-size: 15px;
+  }
+
+  .section-five-card-btn {
+    max-width: 140px;
   }
 }
 
@@ -519,6 +625,21 @@
   .info {
     font-size: 14px;
   }
+
+  .section-five-card-holder {
+    flex-direction: column;
+  }
+
+  .section-five-card {
+    max-width: 850px;
+  }
+
+  .section-five-card-width-holder {
+    justify-content: center;
+    gap: 30px;
+    min-height: 200px;
+    align-items: flex-start;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -560,6 +681,10 @@
 
   .section-four-title {
     font-size: 58px;
+  }
+
+  .section-five-title {
+    font-size: 50px;
   }
 
   .section-one-text {
