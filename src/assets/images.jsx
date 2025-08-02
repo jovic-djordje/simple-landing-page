@@ -6,6 +6,7 @@ import sectionThreeThirdImage from "./section-three-image (3).jpg";
 import sectionFourFirstImage from "./section-four-card-img.jpg";
 import sectionFourSecondImage from "./section-four-card-img (3).jpg";
 import sectionFourThirdImage from "./section-four-card-img (2).jpg";
+import sectionSixImage from "./section-six-image.png";
 
 const SectionOneImage = ({ className }) => {
   return (
@@ -87,6 +88,16 @@ const SectionFourThirdImage = ({ className }) => {
   );
 };
 
+const SectionSixImage = ({ className }) => {
+  return (
+    <img
+      src={sectionSixImage}
+      alt="section six illustration"
+      className={className}
+    />
+  );
+};
+
 export {
   SectionOneImage,
   SectionTwoImage,
@@ -96,4 +107,5 @@ export {
   SectionFourFirstImage,
   SectionFourSecondImage,
   SectionFourThirdImage,
+  SectionSixImage,
 };
